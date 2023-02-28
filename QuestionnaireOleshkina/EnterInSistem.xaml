@@ -1,0 +1,120 @@
+﻿<Page x:Class="QuestionnaireOleshkina.EnterInSistem"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:QuestionnaireOleshkina"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="EnterInSistem">
+
+    <Grid Background="Wheat">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        
+        
+        <StackPanel
+            Grid.Column="3">
+
+            <TextBlock 
+                FontWeight="Black"
+                >Изменить</TextBlock>
+
+            <Label
+                Margin="5"
+                >Текст вопроса</Label>
+
+            <TextBox 
+                Background="Wheat"></TextBox>
+
+            <Label Margin="5"
+                   >Позиция в анкете</Label>
+
+            <TextBox 
+                Background="Wheat"
+                ></TextBox>
+
+            <Label Height="14"></Label>
+            
+            <CheckBox 
+                Background="Wheat"
+                >Включить фильтр</CheckBox>
+            
+            
+            
+        </StackPanel>
+        <StackPanel 
+            Grid.Column="4">
+            
+            <TextBlock
+                FontWeight="Bold"
+                >Создать новый</TextBlock>
+            
+            <Label 
+                Margin="5"
+                >Текст вопроса</Label>
+            
+            <TextBox 
+                Background="Wheat">
+                
+            </TextBox>
+            <Label
+                Margin="5"    
+                >Тип ответа</Label>
+            
+            <ComboBox
+                Background="Wheat"
+                >Выбор из списка</ComboBox>
+            
+            <Label
+                Margin="5"
+                >Позиция в анкете</Label>
+            
+            <TextBox
+                Background="Wheat"
+                ></TextBox>
+
+            <Label></Label>
+            
+            <CheckBox 
+                Background="Wheat"      
+                      >Включить фильтр</CheckBox>
+
+            <Label
+                Height="13"
+                ></Label>
+            
+            <Button 
+                Background="Wheat"
+                HorizontalAlignment="Center"   
+                Width="120"
+                    >Создать вопрос</Button>
+
+            <Label></Label>
+
+            <Label 
+                Margin="5"
+                >Текст варианта ответа</Label>
+
+            <TextBox
+                Background="Wheat"
+                ></TextBox>
+
+            <Label></Label>
+
+            <ListBox 
+                Background="Wheat"
+                Height="80"></ListBox>
+
+            <Label></Label>
+
+            <Button Background="Wheat">Добавить вариант</Button>
+        </StackPanel>
+    </Grid>
+</Page>
