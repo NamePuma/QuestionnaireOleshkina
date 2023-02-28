@@ -23,6 +23,8 @@ namespace QuestionnaireOleshkina
         public PageForTeacher()
         {
             InitializeComponent();
+
+            //проверка проверка, шщииииииищ
         }
     }
 }
